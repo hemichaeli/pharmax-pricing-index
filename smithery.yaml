@@ -1,0 +1,23 @@
+startCommand:
+  type: http
+  url: https://mcp.pharmax-ai.com/mcp
+  configSchema:
+    type: object
+    properties: {}
+runtime:
+  type: cloudflare-workers
+  url: https://mcp.pharmax-ai.com/mcp
+description: PHARMAX pricing index MCP server. 4 tools (search_price, list_category, get_oopi, get_disclosure_block) exposing affordable generic medication pricing, the Out-Of-Pocket-Index, and HSA Singapore regulatory disclosure. CC-BY-4.0 pricing data.
+category: Healthcare
+tags:
+  - healthcare
+  - pricing
+  - pharmaceuticals
+  - generic-drugs
+  - OOPI
+  - PMI
+license: MIT
+homepage: https://pharmax-ai.com
+author:
+  name: PHARMAX
+  url: https://pharmax-ai.com
