@@ -1,0 +1,544 @@
+{
+  "snapshot_version": "2026-06-01",
+  "currency_base": "USD",
+  "disclosure": {
+    "hsa_license": "HSA Singapore Wholesale Pharmacy License (placeholder, replace with real licence number)",
+    "regulatory_jurisdictions": [
+      "SG",
+      "IN"
+    ],
+    "payment_methods": [
+      "Paymento (crypto)",
+      "Paygate",
+      "Bank wire"
+    ],
+    "shipping_notice": "International discreet shipping. Buyer is responsible for compliance with destination-country import rules.",
+    "medical_advice_disclaimer": "Information is for educational purposes. Not medical advice. Consult a licensed prescriber before use.",
+    "contact_url": "https://pharmax-ai.com/contact"
+  },
+  "oopi": {
+    "month": "2026-06",
+    "methodology_url": "https://pharmax-ai.com/oopi/methodology",
+    "top_movers": [
+      {
+        "molecule": "Semaglutide-injection",
+        "oopi_pct": 17.5,
+        "direction": "up"
+      },
+      {
+        "molecule": "Tirzepatide",
+        "oopi_pct": 36.9,
+        "direction": "down"
+      },
+      {
+        "molecule": "Armodafinil",
+        "oopi_pct": 47.8,
+        "direction": "up"
+      }
+    ],
+    "full_index": [
+      {
+        "molecule": "Avanafil",
+        "oopi_pct": 49.8,
+        "us_price": 28.75,
+        "intl_price": 14.43,
+        "source": "rxpricetracker PMI 2026-06"
+      },
+      {
+        "molecule": "Armodafinil",
+        "oopi_pct": 47.8,
+        "us_price": 10.37,
+        "intl_price": 5.41,
+        "source": "rxpricetracker PMI 2026-06"
+      },
+      {
+        "molecule": "Tirzepatide",
+        "oopi_pct": 36.9,
+        "us_price": 135.31,
+        "intl_price": 85.38,
+        "source": "rxpricetracker PMI 2026-06"
+      },
+      {
+        "molecule": "Vardenafil",
+        "oopi_pct": 28.6,
+        "us_price": 19.17,
+        "intl_price": 13.69,
+        "source": "rxpricetracker PMI 2026-06"
+      },
+      {
+        "molecule": "Semaglutide-oral",
+        "oopi_pct": 23.4,
+        "us_price": 198.96,
+        "intl_price": 152.4,
+        "source": "rxpricetracker PMI 2026-06"
+      },
+      {
+        "molecule": "Semaglutide-injection",
+        "oopi_pct": 17.5,
+        "us_price": 168.2,
+        "intl_price": 138.77,
+        "source": "rxpricetracker PMI 2026-06"
+      }
+    ]
+  },
+  "skus": [
+    {
+      "sku": "PMX-AVA-100",
+      "molecule": "Avanafil",
+      "dosage": "100mg",
+      "category": "ED",
+      "manufacturer": "Centurion",
+      "price_usd": 14.0,
+      "prices_local": {
+        "GBP": 11.2,
+        "CAD": 19.1,
+        "CHF": 12.6,
+        "AED": 51.4,
+        "EUR": 13.0
+      },
+      "url": "https://pharmax-ai.com/product/avanafil-100mg",
+      "last_updated": "2026-05-25",
+      "oopi_pct": 49.8,
+      "priority": true
+    },
+    {
+      "sku": "PMX-AVA-200",
+      "molecule": "Avanafil",
+      "dosage": "200mg",
+      "category": "ED",
+      "manufacturer": "Centurion",
+      "price_usd": 22.0,
+      "prices_local": {
+        "GBP": 17.6,
+        "CAD": 30.0,
+        "CHF": 19.8,
+        "AED": 80.8,
+        "EUR": 20.4
+      },
+      "url": "https://pharmax-ai.com/product/avanafil-200mg",
+      "last_updated": "2026-05-25",
+      "oopi_pct": 49.8,
+      "priority": true
+    },
+    {
+      "sku": "PMX-ARM-150",
+      "molecule": "Armodafinil",
+      "dosage": "150mg",
+      "category": "Cognitive",
+      "manufacturer": "Sun Pharma",
+      "price_usd": 5.6,
+      "prices_local": {
+        "GBP": 4.5,
+        "CAD": 7.6,
+        "CHF": 5.0,
+        "AED": 20.6,
+        "EUR": 5.2
+      },
+      "url": "https://pharmax-ai.com/product/armodafinil-150mg",
+      "last_updated": "2026-05-25",
+      "oopi_pct": 47.8,
+      "priority": true
+    },
+    {
+      "sku": "PMX-TZP-5",
+      "molecule": "Tirzepatide",
+      "dosage": "5mg",
+      "category": "GLP1",
+      "manufacturer": "Hetero",
+      "price_usd": 82.0,
+      "prices_local": {
+        "GBP": 65.6,
+        "CAD": 112.0,
+        "CHF": 73.8,
+        "AED": 301.0,
+        "EUR": 76.0
+      },
+      "url": "https://pharmax-ai.com/product/tirzepatide-5mg",
+      "last_updated": "2026-05-25",
+      "oopi_pct": 36.9,
+      "priority": true
+    },
+    {
+      "sku": "PMX-TZP-10",
+      "molecule": "Tirzepatide",
+      "dosage": "10mg",
+      "category": "GLP1",
+      "manufacturer": "Hetero",
+      "price_usd": 148.0,
+      "prices_local": {
+        "GBP": 118.4,
+        "CAD": 202.0,
+        "CHF": 133.2,
+        "AED": 543.6,
+        "EUR": 137.0
+      },
+      "url": "https://pharmax-ai.com/product/tirzepatide-10mg",
+      "last_updated": "2026-05-25",
+      "oopi_pct": 36.9,
+      "priority": true
+    },
+    {
+      "sku": "PMX-VAR-20",
+      "molecule": "Vardenafil",
+      "dosage": "20mg",
+      "category": "ED",
+      "manufacturer": "Cipla",
+      "price_usd": 13.8,
+      "prices_local": {
+        "GBP": 11.0,
+        "CAD": 18.9,
+        "CHF": 12.4,
+        "AED": 50.7,
+        "EUR": 12.8
+      },
+      "url": "https://pharmax-ai.com/product/vardenafil-20mg",
+      "last_updated": "2026-05-25",
+      "oopi_pct": 28.6,
+      "priority": true
+    },
+    {
+      "sku": "PMX-SEM-ORL-7",
+      "molecule": "Semaglutide-oral",
+      "dosage": "7mg",
+      "category": "GLP1",
+      "manufacturer": "Aurobindo",
+      "price_usd": 153.0,
+      "prices_local": {
+        "GBP": 122.4,
+        "CAD": 209.0,
+        "CHF": 137.7,
+        "AED": 561.8,
+        "EUR": 142.0
+      },
+      "url": "https://pharmax-ai.com/product/semaglutide-oral-7mg",
+      "last_updated": "2026-05-25",
+      "oopi_pct": 23.4,
+      "priority": true
+    },
+    {
+      "sku": "PMX-SEM-INJ-1",
+      "molecule": "Semaglutide-injection",
+      "dosage": "1mg",
+      "category": "GLP1",
+      "manufacturer": "Aurobindo",
+      "price_usd": 146.0,
+      "prices_local": {
+        "GBP": 116.8,
+        "CAD": 199.0,
+        "CHF": 131.4,
+        "AED": 536.0,
+        "EUR": 135.4
+      },
+      "url": "https://pharmax-ai.com/product/semaglutide-injection-1mg",
+      "last_updated": "2026-05-25",
+      "oopi_pct": 17.5,
+      "priority": true
+    },
+    {
+      "sku": "PMX-SIL-50",
+      "molecule": "Sildenafil",
+      "dosage": "50mg",
+      "category": "ED",
+      "manufacturer": "Cipla",
+      "price_usd": 6.5,
+      "prices_local": {
+        "GBP": 5.2,
+        "CAD": 8.9,
+        "CHF": 5.85,
+        "AED": 23.9,
+        "EUR": 6.0
+      },
+      "url": "https://pharmax-ai.com/product/sildenafil-50mg",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-SIL-100",
+      "molecule": "Sildenafil",
+      "dosage": "100mg",
+      "category": "ED",
+      "manufacturer": "Cipla",
+      "price_usd": 9.8,
+      "prices_local": {
+        "GBP": 7.8,
+        "CAD": 13.4,
+        "CHF": 8.8,
+        "AED": 36.0,
+        "EUR": 9.1
+      },
+      "url": "https://pharmax-ai.com/product/sildenafil-100mg",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-TAD-20",
+      "molecule": "Tadalafil",
+      "dosage": "20mg",
+      "category": "ED",
+      "manufacturer": "Sun Pharma",
+      "price_usd": 11.4,
+      "prices_local": {
+        "GBP": 9.1,
+        "CAD": 15.5,
+        "CHF": 10.3,
+        "AED": 41.9,
+        "EUR": 10.6
+      },
+      "url": "https://pharmax-ai.com/product/tadalafil-20mg",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-TAD-5",
+      "molecule": "Tadalafil",
+      "dosage": "5mg",
+      "category": "ED",
+      "manufacturer": "Sun Pharma",
+      "price_usd": 7.2,
+      "prices_local": {
+        "GBP": 5.8,
+        "CAD": 9.8,
+        "CHF": 6.5,
+        "AED": 26.4,
+        "EUR": 6.7
+      },
+      "url": "https://pharmax-ai.com/product/tadalafil-5mg",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-FIN-1",
+      "molecule": "Finasteride",
+      "dosage": "1mg",
+      "category": "Hair",
+      "manufacturer": "Cipla",
+      "price_usd": 8.9,
+      "prices_local": {
+        "GBP": 7.1,
+        "CAD": 12.2,
+        "CHF": 8.0,
+        "AED": 32.7,
+        "EUR": 8.3
+      },
+      "url": "https://pharmax-ai.com/product/finasteride-1mg",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-DUT-0.5",
+      "molecule": "Dutasteride",
+      "dosage": "0.5mg",
+      "category": "Hair",
+      "manufacturer": "Sun Pharma",
+      "price_usd": 12.5,
+      "prices_local": {
+        "GBP": 10.0,
+        "CAD": 17.1,
+        "CHF": 11.3,
+        "AED": 45.9,
+        "EUR": 11.6
+      },
+      "url": "https://pharmax-ai.com/product/dutasteride-0.5mg",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-MIN-5",
+      "molecule": "Minoxidil",
+      "dosage": "5%",
+      "category": "Hair",
+      "manufacturer": "Cipla",
+      "price_usd": 14.0,
+      "prices_local": {
+        "GBP": 11.2,
+        "CAD": 19.1,
+        "CHF": 12.6,
+        "AED": 51.4,
+        "EUR": 13.0
+      },
+      "url": "https://pharmax-ai.com/product/minoxidil-5",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-MOD-200",
+      "molecule": "Modafinil",
+      "dosage": "200mg",
+      "category": "Cognitive",
+      "manufacturer": "Sun Pharma",
+      "price_usd": 4.8,
+      "prices_local": {
+        "GBP": 3.8,
+        "CAD": 6.5,
+        "CHF": 4.3,
+        "AED": 17.6,
+        "EUR": 4.5
+      },
+      "url": "https://pharmax-ai.com/product/modafinil-200mg",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-PIR-800",
+      "molecule": "Piracetam",
+      "dosage": "800mg",
+      "category": "Cognitive",
+      "manufacturer": "Aurobindo",
+      "price_usd": 9.2,
+      "prices_local": {
+        "GBP": 7.4,
+        "CAD": 12.6,
+        "CHF": 8.3,
+        "AED": 33.8,
+        "EUR": 8.6
+      },
+      "url": "https://pharmax-ai.com/product/piracetam-800mg",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-TDF-FTC",
+      "molecule": "Tenofovir+Emtricitabine",
+      "dosage": "300mg/200mg",
+      "category": "PrEP",
+      "manufacturer": "Hetero",
+      "price_usd": 28.0,
+      "prices_local": {
+        "GBP": 22.4,
+        "CAD": 38.2,
+        "CHF": 25.2,
+        "AED": 102.8,
+        "EUR": 26.0
+      },
+      "url": "https://pharmax-ai.com/product/tenofovir-emtricitabine",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-DTG-50",
+      "molecule": "Dolutegravir",
+      "dosage": "50mg",
+      "category": "PrEP",
+      "manufacturer": "Hetero",
+      "price_usd": 36.0,
+      "prices_local": {
+        "GBP": 28.8,
+        "CAD": 49.1,
+        "CHF": 32.4,
+        "AED": 132.2,
+        "EUR": 33.4
+      },
+      "url": "https://pharmax-ai.com/product/dolutegravir-50mg",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-ACY-400",
+      "molecule": "Acyclovir",
+      "dosage": "400mg",
+      "category": "Antiviral",
+      "manufacturer": "Cipla",
+      "price_usd": 7.5,
+      "prices_local": {
+        "GBP": 6.0,
+        "CAD": 10.2,
+        "CHF": 6.75,
+        "AED": 27.5,
+        "EUR": 7.0
+      },
+      "url": "https://pharmax-ai.com/product/acyclovir-400mg",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-VAL-500",
+      "molecule": "Valacyclovir",
+      "dosage": "500mg",
+      "category": "Antiviral",
+      "manufacturer": "Sun Pharma",
+      "price_usd": 16.4,
+      "prices_local": {
+        "GBP": 13.1,
+        "CAD": 22.3,
+        "CHF": 14.8,
+        "AED": 60.2,
+        "EUR": 15.2
+      },
+      "url": "https://pharmax-ai.com/product/valacyclovir-500mg",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-OSE-75",
+      "molecule": "Oseltamivir",
+      "dosage": "75mg",
+      "category": "Antiviral",
+      "manufacturer": "Hetero",
+      "price_usd": 19.8,
+      "prices_local": {
+        "GBP": 15.8,
+        "CAD": 27.0,
+        "CHF": 17.8,
+        "AED": 72.7,
+        "EUR": 18.4
+      },
+      "url": "https://pharmax-ai.com/product/oseltamivir-75mg",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-LIR-1.2",
+      "molecule": "Liraglutide",
+      "dosage": "1.2mg",
+      "category": "GLP1",
+      "manufacturer": "Aurobindo",
+      "price_usd": 78.0,
+      "prices_local": {
+        "GBP": 62.4,
+        "CAD": 106.4,
+        "CHF": 70.2,
+        "AED": 286.4,
+        "EUR": 72.4
+      },
+      "url": "https://pharmax-ai.com/product/liraglutide-1.2mg",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-DUL-30",
+      "molecule": "Dulaglutide",
+      "dosage": "1.5mg",
+      "category": "GLP1",
+      "manufacturer": "Hetero",
+      "price_usd": 96.0,
+      "prices_local": {
+        "GBP": 76.8,
+        "CAD": 131.0,
+        "CHF": 86.4,
+        "AED": 352.5,
+        "EUR": 89.0
+      },
+      "url": "https://pharmax-ai.com/product/dulaglutide-1.5mg",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-NOO-100",
+      "molecule": "Noopept",
+      "dosage": "10mg",
+      "category": "Cognitive",
+      "manufacturer": "Centurion",
+      "price_usd": 18.0,
+      "prices_local": {
+        "GBP": 14.4,
+        "CAD": 24.6,
+        "CHF": 16.2,
+        "AED": 66.1,
+        "EUR": 16.7
+      },
+      "url": "https://pharmax-ai.com/product/noopept-10mg",
+      "last_updated": "2026-05-21"
+    },
+    {
+      "sku": "PMX-DAP-30",
+      "molecule": "Dapoxetine",
+      "dosage": "30mg",
+      "category": "ED",
+      "manufacturer": "Sun Pharma",
+      "price_usd": 12.0,
+      "prices_local": {
+        "GBP": 9.6,
+        "CAD": 16.4,
+        "CHF": 10.8,
+        "AED": 44.1,
+        "EUR": 11.1
+      },
+      "url": "https://pharmax-ai.com/product/dapoxetine-30mg",
+      "last_updated": "2026-05-21"
+    }
+  ]
+}

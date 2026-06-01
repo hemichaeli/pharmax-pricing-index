@@ -1,0 +1,32 @@
+{
+  "name": "pharmax-pricing-index",
+  "version": "1.0.0",
+  "description": "MCP server exposing PHARMAX pricing, catalog, and Out-Of-Pocket-Index (OOPI) as tools and resources for Claude, ChatGPT, Cursor, and any MCP-aware client.",
+  "private": true,
+  "main": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "deploy:script": "bash scripts/deploy.sh",
+    "deploy:script:win": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/deploy.ps1",
+    "verify": "bash scripts/verify.sh",
+    "verify:win": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/verify.ps1",
+    "submit:directories": "npx --yes tsx scripts/submit-directories.ts",
+    "submit:directories:dry": "npx --yes tsx scripts/submit-directories.ts --dry-run",
+    "typecheck": "tsc --noEmit",
+    "inspect": "npx @modelcontextprotocol/inspector"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250408.0",
+    "typescript": "^5.5.4",
+    "wrangler": "^3.78.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}

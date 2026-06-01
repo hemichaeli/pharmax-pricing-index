@@ -1,0 +1,22 @@
+name = "pharmax-pricing-index"
+main = "src/index.ts"
+compatibility_date = "2026-05-01"
+compatibility_flags = ["nodejs_compat"]
+
+# Free-tier compatible. No Durable Objects, no R2, no KV.
+# Add a custom domain route once DNS for mcp.pharmax-ai.com is pointed at Cloudflare.
+# Founder configures the route block below after `wrangler deploy` succeeds once on the workers.dev subdomain.
+
+[[routes]]
+pattern = "mcp.pharmax-ai.com"
+custom_domain = true
+zone_name = "pharmax-ai.com"
+
+[observability]
+enabled = true
+
+[vars]
+SERVER_NAME = "pharmax-pricing-index"
+SERVER_VERSION = "1.0.0"
+PHARMAX_BASE_URL = "https://pharmax-ai.com"
+DISCLOSURE_VERSION = "2026-05"
